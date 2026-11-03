@@ -1,0 +1,56 @@
+[
+  {
+    "id": "EMP-001",
+    "name": "Maria Santos",
+    "role": "HR Manager",
+    "dept": "Human Resources",
+    "email": "maria.santos@company.com",
+    "phone": "+63 917 111 2222",
+    "initials": "MS"
+  },
+  {
+    "id": "EMP-002",
+    "name": "John Cruz",
+    "role": "UI/UX Designer",
+    "dept": "Product Design",
+    "email": "john.cruz@company.com",
+    "phone": "+63 918 333 4444",
+    "initials": "JC"
+  },
+  {
+    "id": "EMP-003",
+    "name": "Anna Reyes",
+    "role": "Admin Officer",
+    "dept": "Administration",
+    "email": "anna.reyes@company.com",
+    "phone": "+63 919 555 6666",
+    "initials": "AR"
+  },
+  {
+    "id": "EMP-004",
+    "name": "Carlos Mendoza",
+    "role": "Software Engineer",
+    "dept": "Engineering",
+    "email": "carlos.m@company.com",
+    "phone": "+63 920 777 8888",
+    "initials": "CM"
+  },
+  {
+    "id": "EMP-005",
+    "name": "Sofia Lim",
+    "role": "Marketing Lead",
+    "dept": "Marketing",
+    "email": "sofia.lim@company.com",
+    "phone": "+63 921 999 0000",
+    "initials": "SL"
+  },
+  {
+    "id": "EMP-006",
+    "name": "Miguel Torres",
+    "role": "Finance Analyst",
+    "dept": "Finance",
+    "email": "miguel.t@company.com",
+    "phone": "+63 922 123 4567",
+    "initials": "MT"
+  }
+]

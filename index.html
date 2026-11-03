@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StaffSync - Employee Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">S</span><div><h1>StaffSync</h1><p>Employee Management System</p></div></div>
+      <button id="logoutBtn" class="secondary hidden">Log out</button>
+    </header>
+
+    <section id="loginScreen" class="panel login-panel">
+      <p class="eyebrow">WELCOME BACK</p>
+      <h2>Sign in to StaffSync</h2>
+      <p class="muted">Enter any phone number to preview this demo system.</p>
+      <label for="phoneInput">Phone number</label>
+      <input id="phoneInput" type="tel" placeholder="e.g. 09171234567">
+      <button id="loginBtn" class="primary">Continue</button>
+      <p id="loginMessage" class="message" aria-live="polite"></p>
+      <p class="tiny">Demo only: this sample does not send a real OTP.</p>
+    </section>
+
+    <section id="dashboardScreen" class="hidden">
+      <div class="welcome"><div><p class="eyebrow">OVERVIEW</p><h2>Dashboard</h2><p class="muted">Here is your staff directory at a glance.</p></div><div class="date-chip">StaffSync</div></div>
+      <div class="stats"><article class="stat-card"><span>Total employees</span><strong id="totalEmployees">0</strong></article><article class="stat-card"><span>Departments</span><strong id="totalDepartments">0</strong></article></div>
+      <section class="panel">
+        <div class="section-heading"><div><h3>Employee directory</h3><p class="muted">Search by name, role, or department.</p></div></div>
+        <input id="searchInput" type="search" placeholder="Search employees...">
+        <div id="employeeList" class="employee-list"></div>
+        <p id="emptyMessage" class="muted hidden">No employees found.</p>
+      </section>
+    </section>
+
+    <section id="detailScreen" class="panel hidden">
+      <button id="backBtn" class="back-button">← Back to employees</button>
+      <div class="detail-heading"><div id="detailAvatar" class="avatar large">--</div><div><p class="eyebrow">EMPLOYEE PROFILE</p><h2 id="detailName">Employee name</h2><p id="detailRole" class="muted"></p></div></div>
+      <dl class="details">
+        <div><dt>Employee ID</dt><dd id="detailId"></dd></div>
+        <div><dt>Department</dt><dd id="detailDept"></dd></div>
+        <div><dt>Email</dt><dd id="detailEmail"></dd></div>
+        <div><dt>Phone</dt><dd id="detailPhone"></dd></div>
+      </dl>
+    </section>
+    <footer>StaffSync Demo · Employee information sample</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
